@@ -114,8 +114,8 @@ class ChartDataSetConfigUtils: NSObject {
             dataSet.highlightLineDashLengths = config["highlightLineDashLengths"].arrayObject as? [CGFloat];
         }
 
-        if config["lineDashLengths"].arrayObject != nil {
-            dataSet.lineDashLengths = config["lineDashLengths"].arrayObject as? [CGFloat];
+        if config["dashedHighlightLine"].arrayObject != nil {
+            dataSet.dashedHighlightLine = config["dashedHighlightLine"].arrayObject as? [CGFloat];
         }
     }
 
